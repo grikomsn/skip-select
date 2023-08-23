@@ -1,0 +1,69 @@
+{      
+   "validator_infos":[
+      {
+         "Name":"SilentStake",
+         "TotalMEVRevenue":132886,
+         "TotalMEVShared":56736
+      },
+      {
+         "Name":"JustJUNOStaking",
+         "TotalMEVRevenue":93922,
+         "TotalMEVShared":7376
+      },
+      {
+         "Name":"Active Nodes, Active Hands",
+         "TotalMEVRevenue":30120,
+         "TotalMEVShared":6237
+      },
+      {
+         "Name":"The Steak Guy",
+         "TotalMEVRevenue":216132,
+         "TotalMEVShared":65180
+      },
+      {
+         "Name":"Wet Stake",
+         "TotalMEVRevenue":9011,
+         "TotalMEVShared":8023
+      },
+      {
+         "Name":"️Yield.Stake.Earn",
+         "TotalMEVRevenue":2274004,
+         "TotalMEVShared":518523
+      },
+      {
+         "Name":"Low Risk, High Stakes",
+         "TotalMEVRevenue":773643,
+         "TotalMEVShared":601148
+      },
+      {
+         "Name":"The One Who Stakes",
+         "TotalMEVRevenue":46287,
+         "TotalMEVShared":33453
+      },
+      {
+         "Name":"NetStakes + Chill",
+         "TotalMEVRevenue":929931,
+         "TotalMEVShared":36416
+      },
+      {
+         "Name":"NeverStopStaking",
+         "TotalMEVRevenue":123848,
+         "TotalMEVShared":56765
+      },
+      {
+         "Name":"SoftStake",
+         "TotalMEVRevenue":1304050,
+         "TotalMEVShared":27803
+      },
+      {
+         "Name":"The Few, The Proud, The Staked",
+         "TotalMEVRevenue":49563,
+         "TotalMEVShared":8806
+      },
+      {
+         "Name":"Stake & Bake",
+         "TotalMEVRevenue":380086,
+         "TotalMEVShared":89421
+      }
+   ]
+}

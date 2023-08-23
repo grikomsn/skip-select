@@ -1,0 +1,51 @@
+{
+  "name": "@grikomsn/skip-select",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "pnpm run --stream \"/^dev:.*/\"",
+    "dev:theme": "chakra-cli tokens theme/index.ts --watch",
+    "dev:next": "next dev",
+    "lint": "next lint --no-cache",
+    "lint:fix": "next lint --no-cache --fix",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.0",
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@nivo/bar": "^0.83.0",
+    "@nivo/core": "^0.83.0",
+    "@nivo/pie": "^0.83.0",
+    "@saas-ui/react": "^2.0.6",
+    "@tanstack/react-query": "^4.33.0",
+    "@tanstack/react-table": "^8.9.3",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.1",
+    "lodash": "^4.17.21",
+    "match-sorter": "^6.3.1",
+    "next": "^13.4.19",
+    "next-seo": "^6.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tiny-invariant": "^1.3.1",
+    "typescript": "^5.1.6",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1",
+    "@grikomsn/style-guide": "^4.0.1",
+    "@tanstack/eslint-plugin-query": "^4.32.5",
+    "@tanstack/react-query-devtools": "^4.33.0",
+    "@types/node": "^18.17.6",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "tsx": "^3.12.7"
+  },
+  "prettier": "@grikomsn/style-guide/prettier",
+  "private": true
+}

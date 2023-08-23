@@ -1,0 +1,84 @@
+{
+    "revenue": [
+        {
+            "date": "July 2022",
+            "revenue": 1000000
+        },
+        {
+            "date": "August 2022",
+            "revenue": 2500000
+        },
+        {
+            "date": "September 2022",
+            "revenue": 3000000
+        },
+        {
+            "date": "October 2022",
+            "revenue": 3100000
+        },
+        {
+            "date": "November 2022",
+            "revenue": 5000000
+        },
+        {
+            "date": "December 2022",
+            "revenue": 5500000
+        },
+        {
+            "date": "January 2023",
+            "revenue": 5700000
+        },
+        {
+            "date": "February 2023",
+            "revenue": 6000000
+        },
+        {
+            "date": "March 2023",
+            "revenue": 6500000
+        },
+        {
+            "date": "April 2023",
+            "revenue": 7500000
+        },
+        {
+            "date": "May 2023",
+            "revenue": 11000000
+        },
+        {
+            "date": "June 2023",
+            "revenue": 15000000
+        },
+        {
+            "date": "July 2023",
+            "revenue": 18000000
+        },
+        {
+            "date": "August 2023",
+            "revenue": 18500000
+        },
+        {
+            "date": "September 2023",
+            "revenue": 15000000
+        },
+        {
+            "date": "October 2023",
+            "revenue": 16000000
+        },
+        {
+            "date": "November 2023",
+            "revenue": 17000000
+        },
+        {
+            "date": "December 2023",
+            "revenue": 17500000
+        },
+        {
+            "date": "January 2024",
+            "revenue": 19000000
+        },
+        {
+            "date": "February 2024",
+            "revenue": 20000000
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{      
+   "validator_infos":[
+      {
+         "Name":"polkachu.com",
+         "TotalMEVRevenue":1332886,
+         "TotalMEVShared":856736
+      },
+      {
+         "Name":"Stakers",
+         "TotalMEVRevenue":193922,
+         "TotalMEVShared":97376
+      },
+      {
+         "Name":"Active Nodes",
+         "TotalMEVRevenue":130120,
+         "TotalMEVShared":76237
+      },
+      {
+         "Name":"Kleomedes",
+         "TotalMEVRevenue":8216132,
+         "TotalMEVShared":765180
+      },
+      {
+         "Name":"IcyCRO 🧊",
+         "TotalMEVRevenue":33011,
+         "TotalMEVShared":28023
+      },
+      {
+         "Name":"Oni ⛩️",
+         "TotalMEVRevenue":22274004,
+         "TotalMEVShared":3518523
+      },
+      {
+         "Name":"0base.vc",
+         "TotalMEVRevenue":1773643,
+         "TotalMEVShared":1601148
+      },
+      {
+         "Name":"Citadel.one",
+         "TotalMEVRevenue":816287,
+         "TotalMEVShared":433453
+      },
+      {
+         "Name":"Made In Block",
+         "TotalMEVRevenue":3929931,
+         "TotalMEVShared":1036416
+      },
+      {
+         "Name":"   WhisperNode🤐",
+         "TotalMEVRevenue":923848,
+         "TotalMEVShared":156765
+      },
+      {
+         "Name":"CommunityStaking",
+         "TotalMEVRevenue":11304050,
+         "TotalMEVShared":227803
+      },
+      {
+         "Name":"ChainTools",
+         "TotalMEVRevenue":2049563,
+         "TotalMEVShared":758806
+      },
+      {
+         "Name":"StakeLab",
+         "TotalMEVRevenue":938086,
+         "TotalMEVShared":489421
+      }
+   ]
+}

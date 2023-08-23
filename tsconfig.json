@@ -1,0 +1,12 @@
+{
+  "extends": "@grikomsn/style-guide/tsconfig/next",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+}

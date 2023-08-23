@@ -1,0 +1,82 @@
+{      
+   "validator_infos":[
+      {
+         "Name":"polkachu.com",
+         "NumberOfChainsValidating":1,
+         "TotalMEVRevenue":13532886,
+         "TotalMEVShared":7856736
+      },
+      {
+         "Name":"Stakers",
+         "NumberOfChainsValidating":50,
+         "TotalMEVRevenue":1939228,
+         "TotalMEVShared":978376
+      },
+      {
+         "Name":"Active Nodes",
+         "NumberOfChainsValidating":1,
+         "TotalMEVRevenue":713012,
+         "TotalMEVShared":706237
+      },
+      {
+         "Name":"Kleomedes",
+         "NumberOfChainsValidating":1,
+         "TotalMEVRevenue":1782161,
+         "TotalMEVShared":1765180
+      },
+      {
+         "Name":"IcyCRO 🧊",
+         "NumberOfChainsValidating":10,
+         "TotalMEVRevenue":3143011,
+         "TotalMEVShared":2834023
+      },
+      {
+         "Name":"Oni ⛩️",
+         "NumberOfChainsValidating":1,
+         "TotalMEVRevenue":27287401,
+         "TotalMEVShared":3518523
+      },
+      {
+         "Name":"0base.vc",
+         "NumberOfChainsValidating":10,
+         "TotalMEVRevenue":1773643,
+         "TotalMEVShared":1601148
+      },
+      {
+         "Name":"Citadel.one",
+         "NumberOfChainsValidating":50,
+         "TotalMEVRevenue":8162787,
+         "TotalMEVShared":4303453
+      },
+      {
+         "Name":"Made In Block",
+         "NumberOfChainsValidating":31,
+         "TotalMEVRevenue":23929931,
+         "TotalMEVShared":18036416
+      },
+      {
+         "Name":"   WhisperNode🤐",
+         "NumberOfChainsValidating":1,
+         "TotalMEVRevenue":9263848,
+         "TotalMEVShared":1566765
+      },
+      {
+         "Name":"CommunityStaking",
+         "NumberOfChainsValidating":80,
+         "TotalMEVRevenue":11304050,
+         "TotalMEVShared":2427803
+      },
+      {
+         "Name":"ChainTools",
+         "NumberOfChainsValidating":69,
+         "TotalMEVRevenue":20495693,
+         "TotalMEVShared":7588506
+      },
+      {
+         "Name":"StakeLab",
+         "NumberOfChainsValidating":50,
+         "TotalMEVRevenue":9380866,
+         "TotalMEVShared":4894521
+      }
+   ]
+}
