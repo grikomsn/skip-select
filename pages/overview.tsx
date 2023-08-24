@@ -24,7 +24,7 @@ const OverviewPage = () => {
 
   return (
     <Stack py={16} spacing={16}>
-      <SimpleGrid columns={2} gap={4}>
+      <SimpleGrid columns={{ base: 1, lg: 2 }} gap={4}>
         <MetricDisplay
           actions={<MetricSortSelect defaultValue="Week" name="sort-by" options={timeIntervalOptions} />}
           title="Skip Enabled MEV Revenue"
@@ -52,7 +52,7 @@ const OverviewPage = () => {
         title="Top MEV Validators"
       >
         <Box overflowX="auto">
-          <TopMevValidatorsTable data={topMevValidators} isSortable variant="custom" />
+          <TopMevValidatorsTable data={topMevValidators} isSortable size={{ base: "sm", md: "md" }} variant="custom" />
         </Box>
       </MetricDisplay>
     </Stack>

@@ -33,7 +33,7 @@ export const SkipStats = ({ data }: { data: Maybe<SkipStatsResponse> }) => {
   ];
 
   return (
-    <SimpleGrid columns={{ base: 2, md: 4 }} gap={4}>
+    <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} gap={4}>
       {stats.map((stat, i) => (
         <Card key={i} variant="outline">
           <CardBody>{stat}</CardBody>

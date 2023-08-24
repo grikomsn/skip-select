@@ -57,7 +57,17 @@ const ValidatorsPage = () => {
 
   return (
     <>
-      <Container alignItems="center" as="nav" display="flex" gap={4} maxW="container.2xl" mb={16} p={0} py={4}>
+      <Container
+        alignItems="center"
+        as="nav"
+        display="flex"
+        flexDir={{ base: "column", sm: "row" }}
+        gap={4}
+        maxW="container.2xl"
+        mb={16}
+        p={0}
+        py={4}
+      >
         <ButtonGroup spacing={4} variant="link">
           {routes.map((props, i) => (
             <Button key={i} as={NextLink} color={router.asPath !== props.href ? "muted" : undefined} {...props} />
@@ -65,7 +75,7 @@ const ValidatorsPage = () => {
         </ButtonGroup>
       </Container>
 
-      <Box flexGrow={1} pos="relative">
+      <Box flexGrow={1} pb={16} pos="relative">
         {shouldShowLoading ? (
           <LoadingOverlay variant="overlay">
             <LoadingSpinner />
@@ -113,7 +123,7 @@ const ValidatorsPage = () => {
                     title={`Top MEV Validators on ${capitalize(name)}`}
                   >
                     <Box overflowX="auto">
-                      <MevValidatorsTable data={filtered} isSortable />
+                      <MevValidatorsTable data={filtered} isSortable size={{ base: "sm", sm: "md" }} />
                     </Box>
                   </MetricDisplay>
                 )}

@@ -66,7 +66,7 @@ export const EnabledRevenueChainsCard = ({ data }: { data: Maybe<RevenueChains> 
   return (
     <Card>
       <CardBody p={8}>
-        <SimpleGrid columns={2} h="full" minH="xs">
+        <SimpleGrid columns={{ base: 1, md: 2 }} h="full" minH="xs">
           <Pie
             colors={{ datum: "data.color" }}
             data={transformed}
@@ -84,7 +84,7 @@ export const EnabledRevenueChainsCard = ({ data }: { data: Maybe<RevenueChains> 
               </HStack>
             )}
           />
-          <Center>
+          <Center overflowX="auto">
             <DataTable columns={columns} data={transformed} isSortable size="sm" />
           </Center>
         </SimpleGrid>
