@@ -7,7 +7,7 @@
  */
 
 import { InfoIcon, NotAllowedIcon } from "@chakra-ui/icons";
-import { Box, Button, ButtonGroup, Container, Stack } from "@chakra-ui/react";
+import { Box, Button, ButtonGroup, Card, CardBody, Container, Stack } from "@chakra-ui/react";
 import { EmptyState, LoadingOverlay, LoadingSpinner, LoadingText } from "@saas-ui/react";
 import capitalize from "lodash/capitalize";
 import NextLink from "next/link";
@@ -95,7 +95,7 @@ const ValidatorsPage = () => {
         {shoudShowContent ? (
           <>
             <t.In>
-              <ChainValidatorStatsCard name={name} />
+              <ChainValidatorStatsCard h="full" name={name} />
             </t.In>
             <Stack align="stretch" direction={{ base: "column", lg: "row" }} spacing={4}>
               <WrapMatchSorter data={chainValidators} options={{ keys: ["Name"] }}>
@@ -122,9 +122,11 @@ const ValidatorsPage = () => {
                     overflowX="auto"
                     title={`Top MEV Validators on ${capitalize(name)}`}
                   >
-                    <Box overflowX="auto">
-                      <MevValidatorsTable data={filtered} isSortable size={{ base: "sm", sm: "md" }} />
-                    </Box>
+                    <Card>
+                      <CardBody overflowX="auto">
+                        <MevValidatorsTable data={filtered} isSortable size={{ base: "sm", sm: "md" }} />
+                      </CardBody>
+                    </Card>
                   </MetricDisplay>
                 )}
               </WrapMatchSorter>

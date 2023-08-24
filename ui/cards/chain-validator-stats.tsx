@@ -11,20 +11,20 @@ import { formatBmk } from "@/utils/intl";
  */
 export const ChainValidatorStatsCard = ({ name, ...props }: CardProps & { name: ChainPath }) => {
   return (
-    <Card {...props}>
-      <CardBody display="flex" flexDir="column" gap={4} p={8}>
-        <Heading as="h3" mb={8} size="md">
+    <Card variant="outline" {...props}>
+      <CardBody display="flex" flexDir="column" gap={4} p={{ base: 4, lg: 8 }}>
+        <Heading as="h3" mb={{ base: 4, lg: 8 }} size="md">
           {capitalize(name)} Validator Stats
         </Heading>
-        <Stat>
+        <Stat flexGrow={0}>
           <StatLabel>% Validators using Skip</StatLabel>
           <StatNumber>87%</StatNumber>
         </Stat>
-        <Stat>
+        <Stat flexGrow={0}>
           <StatLabel>MEV captured for delegates</StatLabel>
           <StatNumber>${formatBmk(1500000, 1)}</StatNumber>
         </Stat>
-        <Stat>
+        <Stat flexGrow={0}>
           <StatLabel>Total MEV captured</StatLabel>
           <StatNumber>${formatBmk(1200000, 1)}</StatNumber>
         </Stat>
